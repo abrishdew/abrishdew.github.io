@@ -6,7 +6,7 @@
     "email": "dewtesfaye76@gmail.com",
     "phone": "+251939689972 ",
     "website": "https://abrishdew.github.io",
-    "summary": "I am a software Engineer",
+    "summary": "I am a self-driven and determined individual with strong work ethics, adaptability, and creativity. As a graduated Software Engineer from Addis Ababa Institute of Technology, I possess excellent software design and development skills, attention to detail, and a collaborative mindset with assertive communication skills.",
     "location": { "address": "", "postalCode": "1000", "city": "Addis Ababa", "countryCode": "ETH", "region": "Addis Ababa" },
     "profiles": [
       { "network": "github", "username": "abrishdew", "url": "http://github.com/abrishdew" },
@@ -23,11 +23,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Python" ]
+      "keywords": [ "Python", "Java", "Javascript", "Dart"]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "Flutter", "Ubuntu", "Git/GitHub", "VScode", "Android Studio" ]
     }
   ],
   "education": [
@@ -46,12 +46,12 @@
       "company": "ERTYWHM",
       "position": "Tax Accountant",
       "website": "",
-      "startDate": "2021-11-18",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "startDate": "2021-11-08",
+      "endDate": "2023-07-17",
+      "summary": " I was hired as an intern for the position Tax accountant by the organization.
+",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+       I had tasks regarding tax payment, document preparation and handling as well editing, and in resource mobilization.
       ]
     },
     {
