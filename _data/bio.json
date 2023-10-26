@@ -14,11 +14,11 @@
     ] 
   },
   "interests": [
-    { "name": "Reading" },
     { "name": "Programming" },
-    { "name": "Documentaries" },
-    { "name": "Design" },
-    { "name": "3D Graphics" }
+    { "name": "Grapchis Design" },
+    { "name": "Reading" },
+    { "name": "Traveling" },
+    { "name": "Documentaries" }
   ],
   "skills": [
     {
@@ -104,8 +104,8 @@
   ],
   "references": [
     {
-      "name": "Tewodros W. Ayalew Lecturer, Research | Asscoiate",
-       "email": "tewodros.wondifraw@aait.edu.et"
+      "name": "Tewodros W. Ayalew | Lecturer, Research Asscoiate",
+      "email": "tewodros.wondifraw@aait.edu.et"
     }
   ]
 }
