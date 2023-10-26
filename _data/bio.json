@@ -7,11 +7,11 @@
     "phone": "+251939689972 ",
     "website": "https://abrishdew.github.io",
     "summary": "I am a self-driven and determined individual with strong work ethics, adaptability, and creativity. As a graduated Software Engineer from Addis Ababa Institute of Technology, I possess excellent software design and development skills, attention to detail, and a collaborative mindset with assertive communication skills.",
-    "location": { "address": "", "postalCode": "1000", "city": "Addis Ababa", "countryCode": "ETH", "region": "Addis Ababa" },
+    "location": { "address": "", "postalCode": "1000", "city": "Addis Ababa", "countryCode": "ETH", "region": "" },
     "profiles": [
       { "network": "github", "username": "abrishdew", "url": "http://github.com/abrishdew" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" }
-    ]
+      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/abraham-tesfaye-101457253" }
+    ] 
   },
   "interests": [
     { "name": "Reading" },
@@ -48,69 +48,68 @@
       "website": "",
       "startDate": "2021-11-08",
       "endDate": "2023-07-17",
-      "summary": " I was hired as an intern for the position Tax accountant by the organization.
-",
+      "summary": " I was hired as an intern for the position Tax accountant by the organization, I had tasks regarding :",
       "highlights": [
-       I had tasks regarding tax payment, document preparation and handling as well editing, and in resource mobilization.
+       "tax payment"
+       "document preparation and handling as well editing"
+        "resource mobilization"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Kebena House Events.Cowrking.Cafe",
+      "position": "Coordinator",
+      "startDate": "2022-03-23",
+      "endDate": "2023-04-01",
+      "summary": "Kebena House is a platform for intellectual discourse on art, architecture and urbanism. ",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Worked as a photographer, videographer, editor ",
+        "Graphics designer and other tasks for the House."
       ]
     }
   ],
-  "volunteer": [
+  "Intership": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "Prestige Software Solutions",
+      "position": "Intern",
+      "startDate": "2022-02-13",
+      "endDate": "2022-06-2022",
+      "summary": "Junior developer",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "I collected data, wrote reports, created case studies, and employed various research techniques and problem-solving approaches on assigned projects. ",
+        "I worked on Flutter, ASP.NET, and Microsoft SQL."
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "organization": "Development for Impact",
+      "position": "Intern",
+      "startDate": "2021-12-17",
+      "endDate": "2022-02-06",
+      "summary": "A newly forming Consultancy firm that has reach both nationally and internationally with giant NGO’s and Private Companies.",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        " Hired to assist with developing a Logo ",
+        " Initiating the companies database",
+        " Creating a pamphlet "
       ]
     }
   ],
-  "awards": [
+  "Ceritificates": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Python Programming",
+      "date": "2018-01-10",
+      "awarder": "Addis Ababa Institute of Technology",
+      "summary": "Certificate of Completion"
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Full Stack Developer",
+      "date": "2022-11-16",
+      "awarder": "Udacity",
+      "summary": "Certificate of Completion"
     }
   ],
-  "references": [
+  "References": [
     {
-      "name": "Available upon request"
+      "name": "Tewodros W. Ayalew Lecturer, Research | Asscoiate"
+      "email": " tewodros.wondifraw@aait.edu.et " 
     }
   ]
 }
