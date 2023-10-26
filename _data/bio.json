@@ -7,7 +7,7 @@
     "phone": "+251939689972 ",
     "website": "https://abrishdew.github.io",
     "summary": "I am a self-driven and determined individual with strong work ethics, adaptability, and creativity. As a graduated Software Engineer from Addis Ababa Institute of Technology, I possess excellent software design and development skills, attention to detail, and a collaborative mindset with assertive communication skills.",
-    "location": { "address": "", "postalCode": "1000", "city": "Addis Ababa", "countryCode": "ETH", "region": "" },
+    "location": { "address": "", "postalCode": "1000", "city": "Addis Ababa", "countryCode": "ETH", "region": "AA" },
     "profiles": [
       { "network": "github", "username": "abrishdew", "url": "http://github.com/abrishdew" },
       { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/abraham-tesfaye-101457253" }
@@ -50,9 +50,7 @@
       "endDate": "2023-07-17",
       "summary": " I was hired as an intern for the position Tax accountant by the organization, I had tasks regarding :",
       "highlights": [
-       "tax payment"
-       "document preparation and handling as well editing"
-        "resource mobilization"
+       "tax payment, document preparation and handling as well editing, resource mobilization"
       ]
     },
     {
@@ -67,7 +65,7 @@
       ]
     }
   ],
-  "Intership": [
+  "activities": [
     {
       "organization": "Prestige Software Solutions",
       "position": "Intern",
@@ -75,8 +73,8 @@
       "endDate": "2022-06-2022",
       "summary": "Junior developer",
       "highlights": [
-        "I collected data, wrote reports, created case studies, and employed various research techniques and problem-solving approaches on assigned projects. ",
-        "I worked on Flutter, ASP.NET, and Microsoft SQL."
+        "Collected data, wrote reports, created case studies, and employed various research techniques and problem-solving approaches on assigned projects. ",
+        "Worked on Flutter, ASP.NET, and Microsoft SQL."
       ]
     },
     {
@@ -86,30 +84,27 @@
       "endDate": "2022-02-06",
       "summary": "A newly forming Consultancy firm that has reach both nationally and internationally with giant NGO’s and Private Companies.",
       "highlights": [
-        " Hired to assist with developing a Logo ",
-        " Initiating the companies database",
-        " Creating a pamphlet "
+        " Hired to assist with developing a Logo , Initiating the companies database, Creating a pamphlet "
       ]
     }
   ],
   "Ceritificates": [
     {
-      "title": "Python Programming",
-      "date": "2018-01-10",
-      "awarder": "Addis Ababa Institute of Technology",
-      "summary": "Certificate of Completion"
-    },
-    {
       "title": "Full Stack Developer",
       "date": "2022-11-16",
       "awarder": "Udacity",
+      "summary": "Certificate of Completion"
+    },
+    {
+      "title": "Python Programming",
+      "date": "2018-01-10",
+      "awarder": "Addis Ababa Institute of Technology",
       "summary": "Certificate of Completion"
     }
   ],
   "references": [
     {
       "name": "Tewodros W. Ayalew Lecturer, Research | Asscoiate"
-      "email": " tewodros.wondifraw@aait.edu.et " 
     }
   ]
 }
