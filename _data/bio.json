@@ -10,7 +10,7 @@
     "location": { "address": "", "postalCode": "1000", "city": "Addis Ababa", "countryCode": "ETH", "region": "AA" },
     "profiles": [
       { "network": "github", "username": "abrishdew", "url": "http://github.com/abrishdew" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/abraham-tesfaye-101457253" }
+      { "network": "linkedin", "username": "Abraham Tesfaye", "url": "http://linkedin.com/in/abraham-tesfaye-101457253" }
     ] 
   },
   "interests": [
@@ -104,7 +104,8 @@
   ],
   "references": [
     {
-      "name": "Tewodros W. Ayalew Lecturer, Research | Asscoiate"
+      "name": "Tewodros W. Ayalew Lecturer, Research | Asscoiate",
+       "email": "tewodros.wondifraw@aait.edu.et"
     }
   ]
 }
