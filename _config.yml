@@ -1,4 +1,4 @@
-# REQUIRED CHANGES
+au# REQUIRED CHANGES
 # Edit next line to provide your own name.
 title: Abraham Tesfaye | Professional Portfolio
 # Edit next line, replacing 'techfolios' with your github username
@@ -8,9 +8,9 @@ baseurl: ""
 
 # OPTIONAL CHANGES
 ## Specify the theme using any of the css files in css/techfolio-theme
-techfolio-theme: skyblue.css
+techfolio-theme: default.css
 ## Specify the formatting for triple backquote code sections.
-rouge-theme: base16.dark.css
+rouge-theme: github.css
 
 # DON'T CHANGE THE FOLLOWING (unless you know what you're doing)
 markdown: kramdown
