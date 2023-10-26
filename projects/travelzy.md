@@ -4,7 +4,7 @@ type: project
 image: img/micromouse/micromouse-square.jpg
 title: "Travelzy"
 date: 2022
-published: false
+published: true
 labels:
   - Flutter
   - Dart
