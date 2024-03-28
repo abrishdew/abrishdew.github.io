@@ -39,7 +39,14 @@
       "studyType": "B.S.",
       "startDate": "2018-09-19",
       "endDate": "2023-07-22",
-      "courses": [ "Discrete Mathematics, Digital Logic Design", "Object Oriented Programming, Data structures and Algorithms", "Big Data Modeling and Management System, Distributed Systems Programming", "Advanced Web and Mobile Programming, Advanced IT Security", "Human Computer Interaction", "Software Project Management", "Software Design, Verification and Validation", "Software Quality Assurance and Testing"
+      "courses": [ 
+        "Discrete Mathematics, Digital Logic Design",
+        "Object Oriented Programming, Data structures and Algorithms",
+        "Big Data Modeling and Management System, Distributed Systems Programming",
+        "Advanced Web and Mobile Programming, Advanced IT Security",
+        "Human Computer Interaction", "Software Project Management", 
+        "Software Design, Verification and Validation", 
+        "Software Quality Assurance and Testing"
       ]
     }
   ],
@@ -49,9 +56,10 @@
       "position": "Software Engineering Intern",
       "startDate": "2022-02-13",
       "endDate": "2022-05-22",
-      "summary": "",
+      "summary": "Software Company",
        "highlights": [
-       " Improved productivity in the office by 15% through collecting data, writing reports, creating case studies, and by employing various research techniques and problem-solving approaches on assigned projects.", " Boosted website SEO with ASP.NET/MS-SQL implementing caching algorithms to enhance website loading speed by 10%."
+       " Improved productivity in the office by 15% through collecting data, writing reports, creating case studies, and by employing various research techniques and problem-solving approaches on assigned projects.",
+         " Boosted website SEO with ASP.NET/MS-SQL implementing caching algorithms to enhance website loading speed by 10%."
       ]
     }
     
@@ -65,7 +73,8 @@
       "endDate": "Present",
       "summary": "Emahoy Romanwork Children’s Charity is a charity organization working on children and registered in Ethiopia and America.",
       "highlights": [
-       " Streamlined tasks and boosted efficiency by 30% through tax management, document handling, and resource mobilization.", " Helped raise over 300,000 birr and increased the number of monthly and yearly pledgers by 18% for the charity organization through a fundraising event by facilitating and coordinating the program to get more funds and support."
+       " Streamlined tasks and boosted efficiency by 30% through tax management, document handling, and resource mobilization.",
+      " Helped raise over 300,000 birr and increased the number of monthly and yearly pledgers by 18% for the charity organization through a fundraising event by facilitating and coordinating the program to get more funds and support."
       ]
     },
     {
@@ -75,7 +84,8 @@
       "endDate": "Present",
       "summary": "Kebena House is a plateform for collaborative thinking on art, architecture and urbanism.",
       "highlights": [
-       "Helped coordinate Events that are hosted at Kebena House.", "Prepared Banners and Fliers as well as Social Media Campaigns for the Events. "
+       "Helped coordinate Events that are hosted at Kebena House.",
+       "Prepared Banners and Fliers as well as Social Media Campaigns for the Events. "
       ]
     },
     {
@@ -111,8 +121,7 @@
   ],
   "references": [
     {
-      "name": "Tewodros W. Ayalew | Lecturer, Research Asscoiate",
-      "email": "tewodros.wondifraw@aait.edu.et"
+      "name": "Tewodros W. Ayalew | Lecturer, Research Asscoiate"
     }
   ]
 }
