@@ -1,33 +1,35 @@
 {
   "basics": {
     "name": "Abraham Tesfaye",
-    "label": "Software Engineer",
+    "label": "AI/ML Engineer | Software Engineer",
     "picture": "https://github.com/abrishdew.png",
-    "email": "dewtesfaye76@gmail.com",
+    "email": "abraham.tesfaye13@gmail.com",
     "phone": "+251939689972 ",
     "website": "https://abrishdew.github.io",
-    "summary": "I am a self-driven and determined individual with strong work ethics, adaptability, and creativity. As a graduated Software Engineer from Addis Ababa Institute of Technology, I possess excellent software design and development skills, attention to detail, and a collaborative mindset with assertive communication skills.",
+    "summary": "Enthusiastic programmer with a strong foundation in machine learning and a passion for generative AI. Eager to learn and apply my skills to fine tune LLMs, build chatbots & RAG pipelines, craft and engineer prompts, and generate AI images while making use of deep learning techniques to create. Proficient in Python, Langchain and LLama with experience in machine learning libraries and skilled in NLP and image processing. Excited to contribute to cutting-edge AI and ML projects and push the boundaries of what's possible.",
     "location": { "address": "", "postalCode": "1000", "city": "Addis Ababa", "countryCode": "ETH", "region": "AA" },
     "profiles": [
       { "network": "github", "username": "abrishdew", "url": "http://github.com/abrishdew" },
-      { "network": "linkedin", "username": "Abraham Tesfaye", "url": "http://linkedin.com/in/abraham-tesfaye-101457253" }
+      { "network": "linkedin", "username": "Abraham Tesfaye", "url": "https://www.linkedin.com/in/abraham-tesfaye13/" }
     ] 
   },
   "interests": [
-    { "name": "Programming" },
-    { "name": "Grapchis Design" },
-    { "name": "Reading" },
+    { "name": "Artificial Intelligence" },
+    { "name": "Machine Learning" },
+    { "name": "Data Science" },
+    { "name": "Computer Vision" },
+    { "name": "Deep Learning" },
     { "name": "Traveling" },
     { "name": "Documentaries" }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "Python", "Java", "Javascript", "Dart"]
+      "name": "Technical Skills",
+      "keywords": [ "Machine learning", "Natural Language Processing(NLP)", "Computer vision" , "Deep learning", "Data Science", "Generative Adversarial Networks (GANs)", "Vector database"]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "Flutter", "Ubuntu", "Git/GitHub", "VScode", "Android Studio" ]
+      "name": "Software Tools",
+      "keywords": [ "Python", "SQL", "Pandas", "Matplotlib", "NumPy", "Jupyter", "Docker", "Tensorflow", "Pytorch", "Scikit-learn", "Pinecone", "Weviate", "Langchain", "Git", "CI/CD", "Streamlit", "AWS" ]
     }
   ],
   "education": [
@@ -37,44 +39,43 @@
       "studyType": "B.S.",
       "startDate": "2018-09-19",
       "endDate": "2023-07-22",
-      "courses": [
+      "courses": [ "• Discrete Mathematics, Digital Logic Design", "• Object Oriented Programming, Data structures and Algorithms", "• Big Data Modeling and Management System, Distributed Systems Programming", "• Advanced Web and Mobile Programming, Advanced IT Security", "• Human Computer Interaction", "• Software Project Management", "• Software Design, Verification and Validation", "• Software Quality Assurance and Testing"
       ]
     }
   ],
   "work": [
     {
-      "company": "ERTYWHM",
-      "position": "Tax Accountant",
-      "website": "",
-      "startDate": "2021-11-08",
-      "endDate": "2023-07-17",
-      "summary": " I was hired as an intern for the position Tax accountant by the organization, I had tasks regarding :",
+      "company": "Prestige Software Solutions",
+      "position": "Software Engineering Intern",
+      "startDate": "2022-02-13",
+      "endDate": "2022-05-22",
+      "summary": "",
+       "highlights": [
+       "● Improved productivity in the office by 15% through collecting data, writing reports, creating case studies, and by employing various research techniques and problem-solving approaches on assigned projects.", "● Boosted website SEO with ASP.NET/MS-SQL implementing caching algorithms to enhance website loading speed by 10%."
+      ]
+    },
+    
+  ],
+  "Volunteering": [
+    {
+      "organization": "Emahoy Children's Charity School",
+      "position": "Administrative Coordinator",
+      "website": "https://www.ercc-np.org/",
+      "startDate": "2022-11-08",
+      "endDate": "Present",
+      "summary": "Emahoy Romanwork Children’s Charity is a charity organization working on children and registered in Ethiopia and America.",
       "highlights": [
-       "tax payment, document preparation and handling as well editing, resource mobilization"
+       "• Streamlined tasks and boosted efficiency by 30% through tax management, document handling, and resource mobilization.", "• Helped raise over 300,000 birr and increased the number of monthly and yearly pledgers by 18% for the charity organization through a fundraising event by facilitating and coordinating the program to get more funds and support."
       ]
     },
     {
-      "company": "Kebena House Events.Cowrking.Cafe",
-      "position": "Coordinator",
-      "startDate": "2022-03-23",
-      "endDate": "2023-04-01",
-      "summary": "Kebena House is a platform for intellectual discourse on art, architecture and urbanism. ",
+      "organization": "Kebena House Coworking. Events. Cafe",
+      "position": "Coordinator | Photgrapher | Videographer ",
+      "startDate": "2022-09-13",
+      "endDate": "Present",
+      "summary": "Kebena House is a plateform for collaborative thinking on art, architecture and urbanism.",
       "highlights": [
-        "Worked as a photographer, videographer, editor ",
-        "Graphics designer and other tasks for the House."
-      ]
-    }
-  ],
-  "activities": [
-    {
-      "organization": "Prestige Software Solutions",
-      "position": "Intern",
-      "startDate": "2022-02-13",
-      "endDate": "2022-06-2022",
-      "summary": "Junior developer",
-      "highlights": [
-        "Collected data, wrote reports, created case studies, and employed various research techniques and problem-solving approaches on assigned projects. ",
-        "Worked on Flutter, ASP.NET, and Microsoft SQL."
+       "Helped coordinate Events that are hosted at Kebena House.", "Prepared Banners and Fliers as well as Social Media Campaigns for the Events. "
       ]
     },
     {
@@ -89,6 +90,12 @@
     }
   ],
   "Ceritificates": [
+    {
+      "title": "AI/ML Engineer",
+      "date": "2024-03-13",
+      "awarder": "10 Academy",
+      "summary": "Certificate of Completion"
+    },
     {
       "title": "Full Stack Developer",
       "date": "2022-11-16",
