@@ -1,127 +1,118 @@
 {
   "basics": {
-    "name": "Abraham Tesfaye",
-    "label": "AI/ML Engineer | Software Engineer",
-    "picture": "https://github.com/abrishdew.png",
-    "email": "abraham.tesfaye13@gmail.com",
-    "phone": "+251939689972 ",
-    "website": "https://abrishdew.github.io",
-    "summary": "Enthusiastic programmer with a strong foundation in machine learning and a passion for generative AI. Eager to learn and apply my skills to fine tune LLMs, build chatbots & RAG pipelines, craft and engineer prompts, and generate AI images while making use of deep learning techniques to create. Proficient in Python, Langchain and LLama with experience in machine learning libraries and skilled in NLP and image processing. Excited to contribute to cutting-edge AI and ML projects and push the boundaries of what's possible.",
-    "location": { "address": "", "postalCode": "1000", "city": "Addis Ababa", "countryCode": "ETH", "region": "AA" },
+    "name": "Molly Maluhia",
+    "label": "Student",
+    "picture": "https://github.com/kambergjohnson.png",
+    "email": "molly@hawaii.edu",
+    "phone": "808-333-4444",
+    "website": "https://mmaluhia.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "abrishdew", "url": "http://github.com/abrishdew" },
-      { "network": "linkedin", "username": "Abraham Tesfaye", "url": "https://www.linkedin.com/in/abraham-tesfaye13/" }
-    ] 
+      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
+      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
+      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
+      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+    ]
   },
   "interests": [
-    { "name": "Artificial Intelligence" },
-    { "name": "Machine Learning" },
-    { "name": "Data Science" },
-    { "name": "Computer Vision" },
-    { "name": "Deep Learning" },
-    { "name": "Traveling" },
-    { "name": "Documentaries" }
+    { "name": "Interactive media" },
+    { "name": "Neuromorphic Computing" },
+    { "name": "Quantum Computing" },
+    { "name": "Robotics" },
+    { "name": "3D Graphics" }
   ],
   "skills": [
     {
-      "name": "Technical Skills",
-      "keywords": [ "Machine learning", "Natural Language Processing(NLP)", "Computer vision" , "Deep learning", "Data Science", "Generative Adversarial Networks (GANs)", "Vector database"]
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
     },
     {
-      "name": "Software Tools",
-      "keywords": [ "Python", "SQL", "Pandas", "Matplotlib", "NumPy", "Jupyter", "Docker", "Tensorflow", "Pytorch", "Scikit-learn", "Pinecone", "Weviate", "Langchain", "Git", "CI/CD", "Streamlit", "AWS" ]
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
     }
   ],
   "education": [
     {
-      "institution": "Addis Ababa Institute of Technology",
-      "area": "Software Engineering ",
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2018)",
       "studyType": "B.S.",
-      "startDate": "2018-09-19",
-      "endDate": "2023-07-22",
-      "courses": [ 
-        "Discrete Mathematics, Digital Logic Design",
-        "Object Oriented Programming, Data structures and Algorithms",
-        "Big Data Modeling and Management System, Distributed Systems Programming",
-        "Advanced Web and Mobile Programming, Advanced IT Security",
-        "Human Computer Interaction", "Software Project Management", 
-        "Software Design, Verification and Validation", 
-        "Software Quality Assurance and Testing"
+      "startDate": "2013-09-01",
+      "endDate": "Present",
+      "courses": [
       ]
     }
   ],
   "work": [
     {
-      "company": "Prestige Software Solutions",
-      "position": "Software Engineering Intern",
-      "startDate": "2022-02-13",
-      "endDate": "2022-05-22",
-      "summary": "Software Company",
-       "highlights": [
-       " Improved productivity in the office by 15% through collecting data, writing reports, creating case studies, and by employing various research techniques and problem-solving approaches on assigned projects.",
-         " Boosted website SEO with ASP.NET/MS-SQL implementing caching algorithms to enhance website loading speed by 10%."
+      "company": "UH Manoa Board of Publications",
+      "position": "Web Developer",
+      "website": "",
+      "startDate": "2015-08-01",
+      "endDate": "Present",
+      "summary": "Head of online presence for Ka Leo",
+      "highlights": [
+        "Maintain, update, and oversee official college newspaper website",
+        "Drive, design and build student-community projects for UH Manoa"
+      ]
+    },
+    {
+      "company": "UH Information Technology Services",
+      "position": "Help Desk Consultant",
+      "website": "http://www.hawaii.edu/its/",
+      "startDate": "2015-01-01",
+      "endDate": "2016-03-15",
+      "summary": "",
+      "highlights": [
+        "Troubleshoot software, hardware and networking issues over the phone",
+        "Answer phone and email responses to the ITS Help Desk"
       ]
     }
-    
   ],
   "volunteer": [
     {
-      "organization": "Emahoy Children's Charity School",
-      "position": "Administrative Coordinator",
-      "website": "https://www.ercc-np.org/",
-      "startDate": "2022-11-08",
+      "organization": "Center for Renewable Energy and Island Sustainability",
+      "website": "http://manoa.hawaii.edu/reis",
+      "position": "Software Developer",
+      "startDate": "2016-01-01",
       "endDate": "Present",
-      "summary": "Emahoy Romanwork Children’s Charity is a charity organization working on children and registered in Ethiopia and America.",
+      "summary": "Lead developer for weather sensing project",
       "highlights": [
-       " Streamlined tasks and boosted efficiency by 30% through tax management, document handling, and resource mobilization.",
-      " Helped raise over 300,000 birr and increased the number of monthly and yearly pledgers by 18% for the charity organization through a fundraising event by facilitating and coordinating the program to get more funds and support."
+        "Design firmware for distributed weather sensor network",
+        "Maintain custom data collection and storage infrastructure"
       ]
     },
     {
-      "organization": "Kebena House Coworking. Events. Cafe",
-      "position": "Coordinator | Photgrapher | Videographer ",
-      "startDate": "2022-09-13",
-      "endDate": "Present",
-      "summary": "Kebena House is a plateform for collaborative thinking on art, architecture and urbanism.",
+      "organization": "",
+      "website": "",
+      "position": "Professional organization involvement",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
       "highlights": [
-       "Helped coordinate Events that are hosted at Kebena House.",
-       "Prepared Banners and Fliers as well as Social Media Campaigns for the Events. "
-      ]
-    },
-    {
-      "organization": "Development for Impact",
-      "position": "Intern",
-      "startDate": "2021-12-17",
-      "endDate": "2022-02-06",
-      "summary": "A newly forming Consultancy firm that has reach both nationally and internationally with giant NGO’s and Private Companies.",
-      "highlights": [
-        " Hired to assist with developing a Logo , Initiating the companies database, Creating a pamphlet "
+        "Chair, ACM Manoa, 2016-Present",
+        "Member, IEEE Student Branch, 2014-Present",
+        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
       ]
     }
   ],
-  "Ceritificates": [
+  "awards": [
     {
-      "title": "AI/ML Engineer",
-      "date": "2024-03-18",
-      "awarder": "10 Academy",
-      "summary": "Certificate of Completion"
+      "title": "B+ Scholarship",
+      "date": "2013-Present",
+      "awarder": "State of Hawaii",
+      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
     },
     {
-      "title": "Full Stack Developer",
-      "date": "2022-11-16",
-      "awarder": "Udacity",
-      "summary": "Certificate of Completion"
-    },
-    {
-      "title": "Python Programming",
-      "date": "2018-01-10",
-      "awarder": "Addis Ababa Institute of Technology",
-      "summary": "Certificate of Completion"
+      "title": "First place",
+      "date": "2015",
+      "awarder": "University of Hawaii Micromouse Competition",
+      "summary": "My team won first place in 2015.  See my portfolio site for more details."
     }
   ],
   "references": [
     {
-      "name": "Tewodros W. Ayalew | Lecturer, Research Asscoiate"
+      "name": "Available upon request"
     }
   ]
 }
