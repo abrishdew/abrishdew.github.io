@@ -1,21 +1,22 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
-title: "Cotton"
-date: 2014
-published: false
+image: img/xshape.png
+title: "Semantic Image and Text Alignment: Storyboard Synthesis"
+date: 2024
+published: true
 labels:
-  - Lisp
-  - GitHub
-summary: "A text adventure game that I developed for ICS 313."
+  - Machine Learning
+  - NLP
+  - Computer Vision
+summary: "Automates storyboard generation for mobile ad campaigns from text descriptions."
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<img class="img-fluid" src="../img/cotton/Adludio-CocaCola.png">
 
-Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+Adludio, a mobile ad company, had given a task with a machine learning solution that bridges the gap between textual concepts and visual storytelling. And so, this system automates the creation of storyboards from textual descriptions of advertisement concepts and assets. By automating this process, it will significantly speed up ad campaign creation, allowing clients to launch campaigns faster and with fewer resources. This project leverages advancements in machine learning, natural language processing, and computer vision to improve efficiency and creativity in digital advertising.
 
-To give you a flavor of the game, here is an excerpt from one run:
+How it went about:
 
 <hr>
 

@@ -1,16 +1,21 @@
 ---
 layout: project
 type: project
-image: img/logoo.png
-title: "LLM Finetuning"
-date: 2022
-published: true
+image: img/Finetuning .jpg
+title: "LLM Fine Tuning: Generating Amharic Creatives"
+date: 2024
+published: True
 labels:
-  - Flutter
-  - Dart
-summary: " A simple flutter app that is designed for tourists."
----
+  - Fine-Tuning
+  - LLM
+  - QloRA
+  - Data Labling
+  - Specific Learning
+  - RAG 
 
+summary: "Fine-tuning a Large Language Model (LLM) on Amharic text data to ensure high-quality text embedding and generation and incorporating a Retrieval-Augmented Generation (RAG) pipeline"
+---
+This project is involved in the development of an Amharic text generation system to create targeted ads for their Telegram ad solution. This project involves fine-tuning a Large Language Model (LLM) on Amharic text data to ensure high-quality text embedding and generation. By incorporating a Retrieval-Augmented Generation (RAG) pipeline, it aims to improve the ads' creativity and relevance by considering campaign information and the channel's history. This will ultimately enhance the effectiveness of the advertising efforts in the Amharic-speaking market.
 <div class="text-center p-4">
   <img width="200px" src="../img/photo4.jpg" class="img-thumbnail" >
   <img width="200px" src="../img/photo3.jpg" class="img-thumbnail" >
