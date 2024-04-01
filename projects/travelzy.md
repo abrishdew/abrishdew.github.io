@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/logoo.png
-title: "Travelzy"
+title: "LLM Finetuning"
 date: 2022
 published: true
 labels:
