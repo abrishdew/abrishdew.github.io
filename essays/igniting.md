@@ -1,13 +1,14 @@
 ---
 layout: essay
 type: essay
-title: "Igniting the fire"
+title: "Semantic Image and Text Alignment: Storyboard Synthesis"
 # All dates must be YYYY-MM-DD format!
-date: 2015-08-26
+date: 2024-02-17
 published: true
 labels:
-  - Software Engineering
-  - Learning
+  - CV
+  - NLP
+  - ML
 ---
 
 <img width="100px" class="rounded float-start pe-4" src="../img/igniting/paintbrushes.jpg">
