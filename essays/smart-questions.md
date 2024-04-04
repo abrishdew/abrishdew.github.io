@@ -1,14 +1,15 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "Precision RAG: Enterprise Grade"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
+date: 2024-01-08
 published: true
 labels:
-  - Questions
-  - Answers
-  - StackOverflow
+  - RAG
+  - Prompt Engineering
+  - RAGAS
+  - Evaluation
 ---
 
 <img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
