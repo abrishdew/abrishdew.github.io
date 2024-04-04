@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Semantic Image and Text Alignment: Storyboard Synthesis | Abraham Tesfaye | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/abrishdew.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Abraham Tesfaye | Professional Portfolio">
+    <meta property="og:url" content="https://abrishdew.github.io/essays/igniting.html">
+    <meta property="og:title" content="Semantic Image and Text Alignment: Storyboard Synthesis | Abraham Tesfaye | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/abrishdew.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Semantic Image and Text Alignment: Storyboard Synthesis | Abraham Tesfaye | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Abraham Tesfaye</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/projects">Projects</a>
+        <a class="nav-link" href="/essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Semantic Image and Text Alignment: Storyboard Synthesis</h1>
+  <span class="date">17 Feb 2024</span>
+  <hr>
+  <p><img width="100px" class="rounded float-start pe-4" src="../img/igniting/paintbrushes.jpg" /></p>
+
+<h2 id="introduction">Introduction</h2>
+<p>In this transformative era of advertising and recognizing the potential for technology to streamline and enhance the ad creation process, Adludio is embarking on an ambitious initiative to automate the end-to-end process of advertising production.</p>
+
+<p>Adludio is a well renowned company in the business of advertisement creation for different customers across the globe.
+One aspect involves automation of this process so that the generation of potential creative concepts based on the client’s brief. This transformation process aims to visually depict the narrative flow and user interaction within advertisements, making the conceptualization of digital campaigns both more intuitive and impactful.</p>
+
+<p>Our task for this week, as part of this transformative process, is to architect and develop a cutting-edge machine learning solution that automates the conversion of textual advertisement concepts, assets descriptions into visually compelling storyboards.</p>
+
+<h2 id="overview">Overview</h2>
+<p>Bring the concept to life, we will be using the perks of machine learning and diffusion models broadly.
+As a general scheme for the workflow, we have divided the project into three tasks for ease of approach.
+1) Image Generation and EDA analysis on the given Assets</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This task involves the generation of images using a model by adding the
+concepts or ideas given as data. These concepts need some adjustment before they are handed out to the LLMs for image generation.
+As for the EDA, that is a crucial step to help us identify the positions and
+dimensions of images we find on a certain image on a Storyboard(either the landing page or the Ending page). We can use the image search on image to check and examine the segmented images.
+</code></pre></div></div>
+
+<p>2) Image Composition</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This will have a composition of the several generated images and integrate one or two images on a single frame.
+</code></pre></div></div>
+
+<p>3) Storyboard Creation</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is the final output as this will depict the final product. A story board is nothing bu s a sequence of narration that will be visualized on a board.
+</code></pre></div></div>
+
+<p>All tasks have different under lists and we will approach all as we dive deeper into the project.</p>
+
+<h2 id="implementation">Implementation</h2>
+<h3 id="image-generation">Image Generation</h3>
+
+<p>For Image generation, we used the Stable Diffusion Model to create a good and quality image from a given prompt.</p>
+
+<h3 id="eda">EDA</h3>
+
+<p>The EDA was only performed to analyze the position and dimension of segments on a given image. Particularly, either on the Landing Page and End Frame. The two pages are found on the beginning and the end of the creatives (Ads). This means that they contain all the other images integrated such as Text image, Buttons,…etc.</p>
+
+<h3 id="prompt-engineering">Prompt Engineering</h3>
+
+<p>The better the prompt, the better the quality and realism of the image that will be generated by the Image Generating Model. And so, we were able to give emphasis on this particular activity as this is the heart of the all the creatives to be generated from our description set.</p>
+
+<p>A concise and descriptive prompt can help us achieve this and we were able to make use of the perks of Open-AI for this in helping us automate and generate a better prompt.</p>
+
+<h2 id="result">Result</h2>
+<p>The Generated images have improved a lot in-terms of quality and also realism. Because after the altercation of prompts we were able to get more realistic images and they are some how considered an achievement.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>The task was very enticing as we got the chance to explore more on Machine Learning as well as Computer vision and Deep learning. These are very interesting concepts. They have so much potential and seem very relevant in the near future for further advancements in the AI field.</p>
+
+<p>We also got the chance to work on prompt engineering and that also is a very lucrative sector as that is now in demand for the betterment of LLMs and their generating application</p>
+
+<p>Due to time constrains, the achievements were very much limited. But given more time and resource a better storyboard that can be generated from a trained model can be implemented for creating captivating creatives.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

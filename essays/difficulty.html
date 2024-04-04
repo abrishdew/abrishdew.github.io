@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="LLM Fine-Tuning : Generate Amharic Creatives | Abraham Tesfaye | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/abrishdew.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Abraham Tesfaye | Professional Portfolio">
+    <meta property="og:url" content="https://abrishdew.github.io/essays/difficulty.html">
+    <meta property="og:title" content="LLM Fine-Tuning : Generate Amharic Creatives | Abraham Tesfaye | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/abrishdew.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>LLM Fine-Tuning : Generate Amharic Creatives | Abraham Tesfaye | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Abraham Tesfaye</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/projects">Projects</a>
+        <a class="nav-link" href="/essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">LLM Fine-Tuning : Generate Amharic Creatives</h1>
+  <span class="date">04 Feb 2024</span>
+  <hr>
+  <p><img width="200px" class="rounded float-start pe-4" src="../img/difficulty/mistral.png" /></p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p><em>Fine-Tuning Mistral 7B to Enable Quality Embedding and Text Generation for Amharic Language</em></p>
+
+<p>Given Telegram’s growing prominence as a messaging platform, AiQEM (an African startup focused on AI and Blockchain business solutions) needs to adjust its advertising strategy to better fit this ever-changing ecosystem.</p>
+
+<p>This project intends to improve the effectiveness of their promotional efforts by integrating powerful AI capabilities for Amharic text manipulation, in particular creating an Amharic RAG pipeline that will help generate Amharic based creative text Ad contents given campaign information such as brief (brand and product information) and the content history of a telegram channel.</p>
+
+<p>This project makes sure that their advertisements are both catchy and relevant to the Telegram community. To achieve this, the technology is required to have quality Amharic text embedding and text generation capability.</p>
+
+<p><img src="../img/difficulty/bird-finetune.png" /></p>
+
+<h2 id="overview">Overview</h2>
+
+<p>As seen in the diagram above, a suitable opensource LLM model — in this case Mistral 7B - is used as a base model to train the LLM model on a dataset that will be utilized to finetune it further to deliver the business needs. This will result in a better capability to generate Amharic texts and Ads in general.</p>
+
+<p>Finally, the business need comes to life when an efficient RAG system is implemented to help generate ideal Ad contents in Amharic given a specific brand information and campaign. The dataset that will be used for both Unsupervised and Supervised trainings is exported from Telegram, and which contains messages in JSON format representing 25 telegram public channels. The structure of the JSON object provides information about the sender, timestamps, message types, and any associated multimedia content.</p>
+
+<p>The end product will be displayed through a Front-end where interested companies can sign in to generate brand and campaign specific Amharic ads for their channels using the Generative AI.</p>
+
+<h2 id="technical-overview">Technical Overview</h2>
+<h3 id="data-preprocessing">Data Preprocessing</h3>
+
+<p>A total of 46,000 rows of raw telegram messages was cleaned and preprocessed for this task. Each data was labeled into categories as Ad and Non Ad so our LLM can be accurate in generating its content.</p>
+
+<p><img src="../img/difficulty/label.png" /></p>
+
+<h3 id="tokenizer">Tokenizer</h3>
+
+<p>Tokenization: is the breaking down the input text into individual units (tokens) like words or sub-words. A token is the smallest unit of language that a model can understand.</p>
+
+<p>After having the data preprocessed and ready, we should Tokenize the dataset so our model understands what’s coming its way. For a Tokenizer the Garri Logistics tokenizer was used. (available on Huggingface).</p>
+
+<p>But also we tried sentencepiece for the sake of experiment.</p>
+
+<p><img src="../img/difficulty/label.png" /></p>
+
+<h3 id="fine-tuning">Fine-Tuning</h3>
+
+<p>In the Fine-tuning the model, there will be two steps</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- Unsupervised Training — We will train the model in a way that we want to improve its Amharic, we just provide clean data so it can learn its Amharic and give simple Amharic as an output.
+- Supervised Training — We will train the model in a way that we want to improve it’s Ad generation, we just provide a clean and Labeled data(Filtered with Ads only), so the output will be generating any Ads in Amharic.( category : Summarizing or Ad Generation )
+</code></pre></div></div>
+
+<p>Fine-tuning usually involves updating the entire set of parameters in the model, which can be computationally expensive and time-consuming for large language models. LoRA makes this process more efficient by creating and updating low-rank approximations of the original weight matrices (called update matrices) which are formed using low-rank decomposition on the original weight matrix. Only these matrices are updated during fine-tuning — the original model weights remain the same — and thus LoRA’s total number of trainable parameters is equal to the size of the low-rank update matrices. Since the low-rank matrices are being updated instead of all of the larger matrices with far more parameters, we can do this on a smaller, cheaper GPU.</p>
+
+<h3 id="quantization--lora--qlora">Quantization + LoRA = QLoRA</h3>
+
+<p>In this method, the original model’s parameters are first quantized to lower-bit values based on a user-defined quantization configuration. This makes the model more compact. Subsequently, LoRA is applied to the model’s layers to further optimize for the specific task. This combination in QLoRA allows for fine-tuning on significantly less computational power, which essentially democratizes the ability to fine-tune models.</p>
+
+<p><img src="../img/difficulty/QloRA.png" /></p>
+
+<h3 id="rag">RAG</h3>
+
+<p>In the RAG system, we will make sure the trained model will generate a Specific Ad base on Product/Brand information and Current Campaigns as a context. The specific information and campaigns will be provided by 10Academy Team, so we are able to generate Amharic ads that are specific to some context in the end as a final output.Model will help us generate
+Amharic —Ads in Amharic — Specific Ads in Amharic based on some Campaign and Product/brand info.</p>
+
+<h3 id="workflow">Workflow</h3>
+
+<p>Loading the data -&gt; Importing the Model -&gt; Tokenize the data -&gt; Finetune using QloRA -&gt; Train the model</p>
+
+<h3 id="results">Results</h3>
+
+<p>The fine-tuning was successful and the end product was more or less a good attempt. The model training might have been a little too Over-fitting.</p>
+
+<p>Over-fitting is when the validation loss goes up (bad) while the training loss goes down significantly, meaning the model is learning the training set really well, but is unable to generalize to new data points. In most cases, this is not desired, but since this is the very first attempt and the first time fine-tuning a model with a moderate amount of over-fitting, it is considered as success.</p>
+
+<h3 id="conclusions">Conclusions</h3>
+
+<p>The project was very enticing as well as very difficult as it was a very new concept for me, but after several reading and experiments, I was able to work on the project better and have a better understanding about LLMs and how they work as well as Fine-tuning and it perks. In addition, I had to spend a whole week with the messed up data on cleaning it and labeling it for further processing.</p>
+
+<p>It was a group work and as a lead for the team, I have gained invaluable experience and work ethics, as well as copious knowledge on how to effectively lead a team into a project delivery.</p>
+
+<p>Given more time and resource, I believe it something achievable to do and in more precision and accuracy to deliver a very good product in the end. With more considerations given on the model and it’s tokenizer as well as enhancing the RAG, can generate a good Specific Ad in Amharic for us</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
